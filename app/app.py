@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World from GCP Cloud Run!"
+    return "Hello World from GitHub Actions CI/CD!"
 
 
 @app.route("/health")
